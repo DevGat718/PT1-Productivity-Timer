@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Freshman Pomodoro Clock Demo</title>
+    <title>Productivity "Pomodoro" Timer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Delicious+Handrawn&family=Merriweather:ital@0;1&family=Roboto:wght@500&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <main class="app">
       <progress id="js-progress" value="0"></progress>
       <div class="progress-bar"></div>
       <div class="timer">
         <div class="button-group mode-buttons" id="js-mode-buttons">
+           <img src="BG images/dmg wht slug.png" width="425" height="425" alt="logo here" id="logo-head"/>
+
+          <h1>THE PRODUCTIVITY TIMER:</h1>
+          <br></br>
+          <p>SOMETHING HELP YOU STAY PRODUCTIVE & GET A BUNCH OF SHIT DONE. =)</p>
+          <br></br>
           <button
             data-mode="pomodoro"
             class="button active mode-button"
             id="js-pomodoro"
           >
-            Pomodoro
+           Get 2 Work
           </button>
+          
           <button
             data-mode="shortBreak"
             class="button mode-button"
             id="js-short-break"
           >
-            Short break
+            Short Break
           </button>
+
           <button
             data-mode="longBreak"
             class="button mode-button"
             id="js-long-break"
           >
-            Long break
+            Long Break
           </button>
         </div>
+
         <div class="clock" id="js-clock">
-          <span id="js-minutes">25</span>
+          <span id="js-minutes">01</span>
           <span class="separator">:</span>
           <span id="js-seconds">00</span>
         </div>
+
         <button class="main-button" data-action="start" id="js-btn">
           Start
         </button>
       </div>
     </main>
+
+
     <div class="hidden">
       <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
       <audio src="break.mp3" data-sound="shortBreak"></audio>
       <audio src="break.mp3" data-sound="longBreak"></audio>
+      <audio src="button-sound.mp3" data-sound="start"></audio>
     </div>
-    <script src="main.js"></script>
+
+    <script src="timer.js"></script>
   </body>
+
 </html>
