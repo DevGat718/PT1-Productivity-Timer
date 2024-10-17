@@ -20,10 +20,17 @@
         <div class="button-group mode-buttons" id="js-mode-buttons">
            <img src="BG images/dmg wht slug.png" width="425" height="425" alt="logo here" id="logo-head"/>
 
-          <h1>THE PRODUCTIVITY TIMER:</h1>
+          <h1>PT1: THE PRODUCTIVITY TIMER</h1>
           <br></br>
-          <p>SOMETHING HELP YOU STAY PRODUCTIVE & GET A BUNCH OF SHIT DONE. =)</p>
+          <p>SOMETHING TO HELP YOU STAY PRODUCTIVE & GET A BUNCH OF SH*T DONE. =)</p>
           <br></br>
+
+          <p> Rules For Use:</p>
+            <p>1. Use short breaks up until 4 consecutive sessions</p>
+            <p>2. After 4 sessions take one long break</p>
+            <p>3. Repeat Process</p>
+            <br></br>
+
           <button
             data-mode="pomodoro"
             class="button active mode-button"
@@ -50,7 +57,7 @@
         </div>
 
         <div class="clock" id="js-clock">
-          <span id="js-minutes">01</span>
+          <span id="js-minutes">00</span>
           <span class="separator">:</span>
           <span id="js-seconds">00</span>
         </div>
@@ -66,7 +73,6 @@
       <audio src="backtowork.mp3" data-sound="pomodoro"></audio>
       <audio src="break.mp3" data-sound="shortBreak"></audio>
       <audio src="break.mp3" data-sound="longBreak"></audio>
-      <audio src="button-sound.mp3" data-sound="start"></audio>
     </div>
 
     <script src="timer.js"></script>
