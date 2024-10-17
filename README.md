@@ -1,7 +1,7 @@
 # CREATED BY: DMG GROUP 
 
-This application is was created with you in mind, the everyday worker looking to get work done in a manageble time!
-I hope this productivity time serves you well. This is the 1st project for my portfolio, I have about 5-6 more to go.
+"This application was designed with you in mind—the everyday professional striving to accomplish tasks efficiently and within manageable timeframes. I hope PT1 - The Productivity Timer helps enhance your productivity and focus. 
+This is the first project in my portfolio, and I’m excited to share that there are 5-6 more on the way!"
 
 
 ## Folllow My Journey 
@@ -11,5 +11,5 @@ X - @devgatling
 FB - Devin M Gatling
 [All Links](www.linktree.com/devgatlingnyc) 
 
-## Application Name PT1 - The Productivity Timer
+## Application Name: PT1 - The Productivity Timer
 
