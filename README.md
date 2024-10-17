@@ -1,29 +1,15 @@
-# Pomodoro Timer Starter files
+# CREATED BY: DMG GROUP 
 
-Here lies the starter files for the Pomodoro timer tutorial which can be found
-here: https://freshman.tech/pomodoro-timer
+This application is was created with you in mind, the everyday worker looking to get work done in a manageble time!
+I hope this productivity time serves you well. This is the 1st project for my portfolio, I have about 5-6 more to go.
 
-## Live demo
 
-The completed version of this project is live at
-https://freshman-pomodoro.surge.sh/
+## Folllow My Journey 
 
-## Prerequisites
+IG - @devgatling
+X - @devgatling 
+FB - Devin M Gatling
+[All Links](www.linktree.com/devgatlingnyc) 
 
-You must have [Node.js](https://nodejs.org/en/download/) and
-[npm](https://www.npmjs.com/get-npm) installed on your machine. This project was
-built against the following versions:
+## Application Name PT1 - The Productivity Timer
 
-Node v13.13.0
-npm v6.14.5
-
-## Get started
-
-Clone this repository to your local machine with:
-
-```bash
-$ git clone https://github.com/Freshman-tech/pomodoro-starter-files.git
-```
-
-`cd` into the downloaded directory and follow along with the
-[tutorial](https://freshman.tech/pomodoro-timer/).
