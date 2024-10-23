@@ -1,127 +1,127 @@
 /* ==========================================================================
-   #POMODORO APP STYLES
-   ========================================================================== */
+     /* #POMODORO APP STYLES */
+     ========================================================================== */
 
-/**
- *
- * Inheriting box sizing slightly better best-practice
- * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
- *
- */
+  /**
+   *
+   * Inheriting box sizing slightly better best-practice
+   * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+   *
+   */
 
-html {
-  box-sizing: border-box;
-}
+  html {
+    box-sizing: border-box;
+  }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
 
 
-/* :root {
-  --pomodoro: rgb(90, 30, 110);
-  --shortBreak: hsl(0, 0%, 1%);
-  --longBreak: hsl(105, 16%, 40%);
-} */
+  /* :root {
+    --pomodoro: rgb(90, 30, 110);
+    --shortBreak: hsl(0, 0%, 1%);
+    --longBreak: hsl(105, 16%, 40%);
+  } */
 
-h1 {
-  color:rgb(255, 255, 255);
-  font-family: 'delicious handrawn', cursive;
-  font-size: 40px;
-  margin-top: -100px;
-}
+  h1 {
+    color:rgb(255, 255, 255);
+    font-family: 'delicious handrawn', cursive;
+    font-size: 40px;
+    margin-top: -100px;
+  }
 
-p {
-  color: rgb(235, 235, 235);
-  font-family: 'work sans';
-  font-size: 20px;
-}
+  p {
+    color: rgb(235, 235, 235);
+    font-family: 'work sans';
+    font-size: 20px;
+  }
 
-body {
-  background-image: url('BG\ images/digital clock2.png');
-  background-color: #000; 
-  background-repeat: round;
-  background-size: 20in;
-  transition: background-color 1s ease;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  user-select: none;
+  body {
+    background-image: url('BG\ images/digital clock2.png');
+    background-color: #000; 
+    background-repeat: round;
+    background-size: 20in;
+    transition: background-color 1s ease;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    user-select: none;
+    /* new code for mobile 1st */
+    margin: 0;
+    padding: 0;
+  }
   /* new code for mobile 1st */
-  margin: 0;
-  padding: 0;
-}
-/* new code for mobile 1st */
-.container {
-  padding: 20px;
-}
+  .container {
+    padding: 20px;
+  }
 
-/* new code for mobile 1st */
-.header {
-  text-align: center;
-  padding: 10px;
-  background-color: #f8f9fa;
-}
-
-#logo-head {
-  margin-bottom: 0px;
-}
-
-progress {
-  border-radius: 2px;
-  width: 100%;
-  height: 12px;
-  position: fixed;
-  top: 0;
-}
-
-progress::-webkit-progress-bar {
- background-color: rgba(230, 60, 13, 0.435);
-}
-
-progress::-webkit-progress-value {
-  background-color: #fff;
-}
-
-.timer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  text-align: center;
   /* new code for mobile 1st */
-  font-size: 2em;
-  margin: 20px 0;
-}
-/* new code for mobile 1st */
-.buttons {
-  display: flex;
-  justify-content: space-around;
-}
-/* new code for mobile 1st */
-button {
-  padding: 10px 20px;
-  font-size: 1em;
-}
+  .header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+  }
 
-.clock {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  font-size: 15rem;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  font-family: arial, sans-serif;
-  color: #fff;
-}
+  #logo-head {
+    margin-bottom: 0px;
+  }
 
-.mode-button {
-  font-size: 20px;
-  height: 30px;
-  cursor: pointer;
-  box-shadow: none;
-  font-family: "delicious handrawn", sans-serif;
+  progress {
+    border-radius: 2px;
+    width: 100%;
+    height: 12px;
+    position: fixed;
+    top: 0;
+  }
+
+  progress::-webkit-progress-bar {
+   background-color: rgba(230, 60, 13, 0.435);
+  }
+
+  progress::-webkit-progress-value {
+    background-color: #fff;
+  }
+
+  .timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    /* new code for mobile 1st */
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  /* new code for mobile 1st */
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  /* new code for mobile 1st */
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+  }
+
+  .clock {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15rem;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    font-family: arial, sans-serif;
+    color: #fff;
+  }
+
+  .mode-button {
+    font-size: 20px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: none;
+    font-family: "delicious handrawn", sans-serif;
   font-weight: none;
   color: #65ff00;
   border: 2px solid transparent;
@@ -171,26 +171,12 @@ button:focus, button:active {
 @media screen and (max-width: 550px) {
   .clock {
     font-size: 8rem;
-  }
-} 
-
-/* Media queries for larger screens (mobile 1st) */
-@media (min-width: 600px) {
-  .container {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .timer {
-    font-size: 3em;
-  }
-
-  button {
-    font-size: 1.2em;
+    line-height: 1.2;
   }
 }
 
-@media (min-width: 900px) {
+/* Media queries for larger screens (mobile 1st) */
+/* @media (min-width: 900px) {
   .container {
     max-width: 900px;
   }
@@ -207,3 +193,24 @@ button:focus, button:active {
     font-size: 1.5em;
   }
 }
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .timer {
+    font-size: 3em;
+  }
+
+  button {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .clock {
+    font-size: 8rem;
+  }
+} */
