@@ -1,8 +1,8 @@
 /* ==========================================================================
-     /* #POMODORO APP STYLES */
+     /* #POMODORO APP STYLES 
      ========================================================================== */
 
-  /**
+  /*
    *
    * Inheriting box sizing slightly better best-practice
    * https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
@@ -18,7 +18,12 @@
     margin: 0;
     padding: 0;
   }
-
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;  /* Prevent scrolling */
+}
 
   /* :root {
     --pomodoro: rgb(90, 30, 110);
@@ -36,7 +41,7 @@
   p {
     color: rgb(235, 235, 235);
     font-family: 'work sans';
-    font-size: 20px;
+    font-size: 24px;
   }
 
   body {
@@ -53,7 +58,10 @@
   }
   /* new code for mobile 1st */
   .container {
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
   }
 
   /* new code for mobile 1st */
@@ -108,10 +116,12 @@
   .clock {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 15rem;
+    font-size: 20vw;
     line-height: 1.2;
     display: flex;
+    box-sizing: border-box;
     align-items: center;
+    text-align: center; /* Center text within the clock element */
     font-family: arial, sans-serif;
     color: #fff;
   }
@@ -170,13 +180,13 @@ button:focus, button:active {
 
 @media screen and (max-width: 550px) {
   .clock {
-    font-size: 8rem;
+    font-size: 20vw;
     line-height: 1.2;
   }
 }
 
 /* Media queries for larger screens (mobile 1st) */
-/* @media (min-width: 900px) {
+ @media (min-width: 900px) {
   .container {
     max-width: 900px;
   }
@@ -194,7 +204,7 @@ button:focus, button:active {
   }
 }
 
-@media (min-width: 600px) {
+ @media (min-width: 600px) {
   .container {
     max-width: 600px;
     margin: 0 auto;
@@ -213,4 +223,4 @@ button:focus, button:active {
   .clock {
     font-size: 8rem;
   }
-} */
+} 
